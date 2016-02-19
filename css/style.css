@@ -128,7 +128,7 @@ ul{
 
 
 img {
-	/*width: 100%;*/
+	width: 100%;
 }
 
 
@@ -142,9 +142,11 @@ body, p{
 	line-height: 23px;
 	/*letter-spacing: 1px;*/
 }
-
+p {
+	font-family: 'Roboto Condensed';
+}
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1{
@@ -279,7 +281,7 @@ h5{
     background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 580px;
-    height: 500px;
+    height: auto;
     overflow: hidden;
 }
 .slider-wrap{
@@ -296,6 +298,9 @@ h5{
     width: 160px;
     margin-right: auto; 
 }
+.slider .logo img{
+	width: 180px;
+}
 .slider .contacts{
     margin-top: 25px;
     margin-left: auto;
@@ -310,6 +315,7 @@ h5{
 .slider .fa-map-marker{
      margin-left: 2px;
 }
+
 .slider .contacts .after-phone{
     margin-left: 40px;
 }
@@ -318,33 +324,64 @@ h5{
 }
 .slider .contacts span{
     margin-left: 10px;
-    font-family: "Myriad Pro Regular";
+    font-family: "Roboto Condensed";
     font-size: 16px;
     color: #ECECEC;
+    font-weight: 400;
+}
+.container{
+	text-align: center;
 }
 .slider-content{
-	padding-top: 80px;
+	margin-top: 70px;
 }
+.slider-content p{
+	font-size: 19px;
+}
+
 .slider h1 {
+	margin-left: auto;
+	margin-right: auto;
   margin: 0 0 20px 0;
-  font-size: 50px;
+  font-size: 40px;
 	color: #fff;
-	text-transform: uppercase;
 	line-height: 60px;
-	font-weight: 700;
-}
-.slider h2 {
-	font-family: 'lora', serif;
-	font-style: italic;
-	color: #fff;
-	text-transform: capitalize;
-	font-size: 24px;
+	font-weight: 10;
 }
 .slider p {
   margin-bottom: 25px;
   color: #fff;
 }
-
+.form-phone-interaction{
+	padding-top: 50px;
+}
+.form-phone-interaction .text{
+	min-width: 350px;
+	padding-left: 8px;
+}
+.form-phone-interaction .submit{
+	width: 110px;
+	color: white;
+	text-transform: uppercase;
+  font-family: "Roboto Condensed";
+	background-color: #12C223;
+	border: 2px solid #12C223;
+	border-bottom: 2px solid #108019;
+	letter-spacing: 1px;
+}
+.form-phone-interaction .submit:hover{
+	width: 110px;
+	text-transform: uppercase;
+	background-color: #86D0E1;
+	border: 2px solid #86D0E1;
+	border-bottom: 2px solid #64A9B9;
+}
+.container .after-phone-text{
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	text-transform: uppercase;
+}
 
 /*Features section
 =============================================================*/
