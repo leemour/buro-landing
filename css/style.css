@@ -271,7 +271,7 @@ h5{
 	border-radius: 25px;
 }
 
-#feature,#work-steps,#overview ,#feedback ,#footer{
+#feature,#work-steps,#overview ,#feedback ,#footer,#reviews{
 	padding: 80px 0px;
 	background: #fff;
 }
@@ -1242,6 +1242,7 @@ NAVBAR
 /*FOOTER FORM*/
 .footer-form{
 	background-color:#D5D5D5;
+
 }
 .footer-form{
 	text-align: center;
@@ -1265,7 +1266,10 @@ NAVBAR
 }
 .footer-form-phone{
 	padding-top: 10px;
-	padding-bottom: 90px;
+	padding-bottom: 200px;
+}
+.footer-form-phone input{
+	margin-bottom: 10px;
 }
 /*Overlay
 ============================================*/
