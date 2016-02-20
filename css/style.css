@@ -294,18 +294,19 @@ NAVBAR
   font-weight: bold;
   border-top: solid 3px transparent;
 }
-.navbar ul.nav > li > a:hover {
+.navbar ul.nav > li > .navig-button:hover {
   border-top: solid 3px #79AAD3;
 }
 @media (max-width: 767px) {
-  .navbar ul.nav > li > a:hover {
+  .navbar ul.nav > li > .navig-button:hover {
     border-top: solid 3px transparent;
   }
 }
-.navbar ul.nav > li.active > a,
-.navbar ul.nav > li.open > a {
+
+.navbar ul.nav > li.active > .navig-button, .navbar ul.nav > li.open > .navig-button {
   text-decoration: none !important;
   border-top: solid 3px #223867;
+  background-color:#EEEEEE;
 }
 @media (max-width: 767px) {
   .navbar ul.nav > li.active > a,
@@ -313,6 +314,17 @@ NAVBAR
     border-top: solid 3px transparent;
   }
 }
+.navbar .green-button{
+	background-color: #0B9D0B;
+	color:white !important;
+	border-bottom: 3px solid #037C29;
+}
+.navbar .green-button:hover{
+	background-color: #1799BE !important;
+	color:white !important;
+	border-bottom: 3px solid #277197;
+}
+
 .navbar-fixed-top{
 	padding: 10px;
 }
