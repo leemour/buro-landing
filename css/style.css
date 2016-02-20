@@ -1338,3 +1338,18 @@ NAVBAR
 	color:#C1C1C1;
 	font-weight: 0;
 }
+.form-background-image{
+  background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+.form-background-color{
+	background-color: #87CEF5;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
