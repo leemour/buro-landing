@@ -1239,7 +1239,34 @@ NAVBAR
 .copyright span{
 	color: #00AEFF;
 }
-
+/*FOOTER FORM*/
+.footer-form{
+	background-color:#D5D5D5;
+}
+.footer-form{
+	text-align: center;
+}
+.footer-form h2{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.footer-text-box-phone{
+	background-color: white;
+	text-align: center;
+	font-size: 18px;
+	color: black;
+}
+.footer-btn-phone{
+	background-color: #4AB6F7;
+	border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.footer-form-phone{
+	padding-top: 10px;
+	padding-bottom: 90px;
+}
 /*Overlay
 ============================================*/
 
@@ -1291,4 +1318,23 @@ NAVBAR
 #back-top a:hover{
     background: #00AEFF;
     opacity: 1;
+}
+/* FORMS */
+.form-box{
+	border: 1px solid green;
+	padding: 20px;
+}
+.form-box-horizontal{
+	padding: 20px;
+	padding-bottom: 80px;
+}
+.form-box-horizontal h1{
+	text-align: center;
+	margin-bottom: 0 ;
+}
+.form-box-horizontal h4{
+	margin-top: 2px!important;
+	text-align: center;
+	color:#C1C1C1;
+	font-weight: 0;
 }
