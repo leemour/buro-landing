@@ -12,20 +12,20 @@
 $(window).load(function() { // makes sure the whole site is loaded
   "use strict";
 
-    // $(window).bind('scroll', function() {
-    //     var navHeight = $(window).height() - 930;
+    $(window).bind('scroll', function() {
+        var navHeight = $(window).height() - 930;
 
-    //     if ($(window).scrollTop() > navHeight) {
-    //         $('.navbar-default').addClass('on');
-    //     } else {
-    //         $('.navbar-default').removeClass('on');
-    //     }
-    // });
+        if ($(window).scrollTop() > navHeight) {
+            $('.navbar-default').addClass('on');
+        } else {
+            $('.navbar-default').removeClass('on');
+        }
+    });
 
-    // $('body').scrollspy({ 
-    //     target: '.navbar-default',
-    //     offset: 70
-    // })
+    $('body').scrollspy({ 
+        target: '.navbar-default',
+        offset: 70
+    })
  
 
 });
