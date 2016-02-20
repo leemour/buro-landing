@@ -68,6 +68,7 @@ body{
 	color: #333333;
 	font-size: 14px;
 	background: #fff;
+	min-width: 320px;
 }
 
 
@@ -275,14 +276,62 @@ h5{
 	background: #fff;
 }
 
+
+/*
+
+=====================
+NAVBAR
+=====================
+
+*/
+.navbar {
+  border: none;
+}
+.navbar ul.nav > li > a {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  font-weight: bold;
+  border-top: solid 3px transparent;
+}
+.navbar ul.nav > li > a:hover {
+  border-top: solid 3px #79AAD3;
+}
+@media (max-width: 767px) {
+  .navbar ul.nav > li > a:hover {
+    border-top: solid 3px transparent;
+  }
+}
+.navbar ul.nav > li.active > a,
+.navbar ul.nav > li.open > a {
+  text-decoration: none !important;
+  border-top: solid 3px #223867;
+}
+@media (max-width: 767px) {
+  .navbar ul.nav > li.active > a,
+  .navbar ul.nav > li.open > a {
+    border-top: solid 3px transparent;
+  }
+}
+.navbar-fixed-top{
+	padding: 10px;
+}
+.top-nav-collapse{
+	padding: 0;
+}
+/*
+
 /*SLIDER HEADER 
 ============================================================*/
 .slider {
     background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 580px;
-    height: 100%;
+    height: auto;
+		min-height: 100%;
     overflow: hidden;
+    padding-bottom: 80px;
+    padding-top: 100px;
 }
 .slider-wrap{
 	padding: 20px 0px;
@@ -322,12 +371,16 @@ h5{
 .slider .contacts .phone-text{
     font-size: 19px;
 }
+.slider .contacts{
+	padding-left: 10px;
+}
 .slider .contacts span{
     margin-left: 10px ;
     font-family: "Roboto Condensed";
     font-size: 16px;
     color: #ECECEC;
     font-weight: 400;
+    text-align: center;
 }
 .container{
 	text-align: center;
@@ -352,36 +405,16 @@ h5{
   margin-bottom: 25px;
   color: #fff;
 }
-.form-phone-interaction{
-	padding-top: 50px;
+.form-phone{
+	margin-top: 160px;
 }
-.form-phone-interaction .text{
-	min-width: 350px;
-	padding-left: 8px;
+.form-phone .btn-phone{
+	margin-top: 0;
+	height: 45px;
 }
-.form-phone-interaction .submit{
-	width: 110px;
-	color: white;
-	text-transform: uppercase;
-  font-family: "Roboto Condensed";
-	background-color: #12C223;
-	border: 2px solid #12C223;
-	border-bottom: 2px solid #108019;
-	letter-spacing: 1px;
-}
-.form-phone-interaction .submit:hover{
-	width: 110px;
-	text-transform: uppercase;
-	background-color: #86D0E1;
-	border: 2px solid #86D0E1;
-	border-bottom: 2px solid #64A9B9;
-	transition: 0.3s;
-}
-.container .after-phone-text{
-	font-weight: 400;
-	font-size: 12px;
-	color: white;
-	text-transform: uppercase;
+.form-phone .text-box-phone{
+	color:white;
+	font-size: 18px;
 }
 
 /*Features section

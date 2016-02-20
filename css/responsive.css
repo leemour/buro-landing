@@ -19,8 +19,17 @@
 	.heading-inner::before,.heading-inner::after{
 		display: none;
 	}
+	.slider {
+    background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 800px;
+  }
 	.slider-content {
 	    padding-top: 0px;
+	}
+	/*form-phone*/
+	.form-phone-interaction{
+		padding-top: 50px !important;
 	}
 	.navbar-brand {
 	    height: 15px;
@@ -46,9 +55,7 @@
 	.top-link li{
 		margin-bottom: 38px;
 	}
-	.slider .contacts span{
-		margin-left: 0!important;
-	}
+
 }
 
 
