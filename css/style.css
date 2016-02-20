@@ -281,7 +281,7 @@ h5{
     background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 580px;
-    height: auto;
+    height: 100%;
     overflow: hidden;
 }
 .slider-wrap{
@@ -299,7 +299,7 @@ h5{
     margin-right: auto; 
 }
 .slider .logo img{
-	width: 180px;
+	max-width: 180px;
 }
 .slider .contacts{
     margin-top: 25px;
@@ -323,7 +323,7 @@ h5{
     font-size: 19px;
 }
 .slider .contacts span{
-    margin-left: 10px;
+    margin-left: 10px ;
     font-family: "Roboto Condensed";
     font-size: 16px;
     color: #ECECEC;
@@ -375,6 +375,7 @@ h5{
 	background-color: #86D0E1;
 	border: 2px solid #86D0E1;
 	border-bottom: 2px solid #64A9B9;
+	transition: 0.3s;
 }
 .container .after-phone-text{
 	font-weight: 400;

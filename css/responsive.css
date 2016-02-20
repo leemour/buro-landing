@@ -46,6 +46,9 @@
 	.top-link li{
 		margin-bottom: 38px;
 	}
+	.slider .contacts span{
+		margin-left: 0!important;
+	}
 }
 
 
