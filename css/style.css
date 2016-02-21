@@ -335,7 +335,7 @@ NAVBAR
 
 /*SLIDER HEADER 
 ============================================================*/
-.slider {
+#slider {
     background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 580px;
@@ -353,40 +353,40 @@ NAVBAR
 	width: 300px;
 	height: 700px;
 }
-.slider .logo {
+#slider .logo {
     margin-top: 20px;
     margin-left: auto; 
     width: 160px;
     margin-right: auto; 
 }
-.slider .logo img{
+#slider .logo img{
 	max-width: 180px;
 }
-.slider .contacts{
+#slider .contacts{
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     max-width: 310px;
 
 }
-.slider .fa{
+#slider .fa{
     font-size: 25px;
     color: #A0EDFF;
 }
-.slider .fa-map-marker{
+#slider .fa-map-marker{
      margin-left: 2px;
 }
 
-.slider .contacts .after-phone{
+#slider .contacts .after-phone{
     margin-left: 40px;
 }
-.slider .contacts .phone-text{
+#slider .contacts .phone-text{
     font-size: 19px;
 }
-.slider .contacts{
+#slider .contacts{
 	padding-left: 10px;
 }
-.slider .contacts span{
+#slider .contacts span{
     margin-left: 10px ;
     font-family: "Roboto Condensed";
     font-size: 16px;
@@ -404,7 +404,7 @@ NAVBAR
 	font-size: 19px;
 }
 
-.slider h1 {
+#slider h1 {
 	margin-left: auto;
 	margin-right: auto;
   margin: 0 0 20px 0;
@@ -413,7 +413,7 @@ NAVBAR
 	line-height: 60px;
 	font-weight: 10;
 }
-.slider p {
+#slider p {
   margin-bottom: 25px;
   color: #fff;
 }
@@ -1241,11 +1241,15 @@ NAVBAR
 }
 /*FOOTER FORM*/
 .footer-form{
-	background-color:#D5D5D5;
-
+	background-color:#DFDFDF;
 }
 .footer-form{
 	text-align: center;
+}
+.footer-form h3{
+	color: #2C95AC;
+	font-weight: 900;
+	padding-bottom: 30px;
 }
 .footer-form h2{
 	padding-top: 30px;
@@ -1266,7 +1270,7 @@ NAVBAR
 }
 .footer-form-phone{
 	padding-top: 10px;
-	padding-bottom: 200px;
+	padding-bottom: 30px;
 }
 .footer-form-phone input{
 	margin-bottom: 10px;
@@ -1330,30 +1334,52 @@ NAVBAR
 }
 .form-box-horizontal{
 	padding: 20px;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 }
 .form-box-horizontal h1{
+	font-size: 29px;
 	text-align: center;
-	margin-bottom: 0 ;
+	margin-bottom: 0;
+	color:#C6FEFF;
 }
 .form-box-horizontal h4{
 	margin-top: 2px!important;
+	font-size: 15px;
 	text-align: center;
-	color:#C1C1C1;
+	color:#DCDCDC;
 	font-weight: 0;
+	padding-bottom: 20px;
+}
+.form-box-horizontal .btn{
+	margin-top: 0;
+	padding-top: 5px;
+	padding-bottom: 7px;
+
+	width: 100%;
+}
+.form-box-horizontal .footer-text-box-phone{
+	padding: 0	!important;
+	height: 35px;
+	font-size: 15px;
 }
 .form-background-image{
   background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
   background-size: cover;
   height: auto;
   overflow: hidden;
-  padding-bottom: 80px;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 .form-background-color{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
 	background-color: #87CEF5;
   height: auto;
   overflow: hidden;
   padding-bottom: 80px;
   padding-top: 100px;
+}
+.footer-container{
+	background-color: #3DA1FA;
+	color: white;
+	padding:8px;	
 }

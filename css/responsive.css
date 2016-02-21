@@ -11,7 +11,7 @@
 
 /* Medium Devices, Desktops */
 @media (min-width : 992px) {
-
+	
 }
 
 /* Small Devices, Tablets */
@@ -55,7 +55,15 @@
 	.top-link li{
 		margin-bottom: 38px;
 	}
-
+	.navbar-fixed-top{
+		padding: 10px;
+		padding-right: 30px;
+	}
+	.top-nav-collapse{
+		padding: 0;
+		padding-left: 10px;
+		padding-right: 30px;
+	}
 }
 
 
