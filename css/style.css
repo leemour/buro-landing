@@ -363,11 +363,16 @@ NAVBAR
 	max-width: 180px;
 }
 #slider .contacts{
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 310px;
-
+	text-align: center;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 310px;
+}
+#slider p{
+	padding-left: -50px;
+}
+#slider .contacts{
 }
 #slider .fa{
     font-size: 25px;

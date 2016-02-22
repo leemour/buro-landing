@@ -15,13 +15,6 @@ $(window).bind('scroll', function() {
     
 });
 
-$(window).load(function() { 
-    "use strict";
-    $('.counter').counterUp({
-        delay: 100,
-        time: 500
-    });
-});
 
 $(document).ready(function() {
   "use strict";
