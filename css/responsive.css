@@ -7,8 +7,12 @@
 		display: none;
 	}
 	.navbar-left{
-		margin-left: 150px;
+		margin-left: 220px;
 	}
+  .top-nav-collapse .navbar-left{
+		margin-left: 285px;
+	}
+
 }
 
 

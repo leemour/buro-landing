@@ -327,9 +327,22 @@ NAVBAR
 }
 
 .navbar .green-button{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 30px;
 	background-color: #0B9D0B;
 	color:white !important;
 	border-bottom: 3px solid #037C29;
+	margin-right: -15px;
+}
+.navbar #phone-text{
+	margin-left: 10px;
+	color: #084C1D;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: 'Arial';
 }
 .navbar .green-button:hover{
 	background-color: #1799BE !important;
@@ -433,9 +446,9 @@ NAVBAR
 	color: #fff;
 	padding-bottom: 0px;
 }
-#slider .form-container{
+.form-container{
 }
-#slider .form{
+.form{
 	border: 1px solid #2E2E2E;
 	background-color:  #2E2E2E;
 	background:rgba(51,51,51,0.3);
@@ -446,12 +459,12 @@ NAVBAR
 	width: auto;
 	height: auto;
 }
-#slider .form .footer-btn-phone{
+.form .footer-btn-phone{
 	background-color: #00AEFF;
 	padding: 10px 25px;
 
 }
-#slider .form .footer-text-box-phone{
+.form .footer-text-box-phone{
 	height: 35px;
 	font-size: 15px;
 }
@@ -510,9 +523,8 @@ NAVBAR
 	font-size: 35px;
 }
 .feature-inner{
-	padding: 30px 10px;
+	padding: 10px 10px;
 }
-
 .feature-bg,.feature-bg.white{
 	-webkit-transition: all .2s ease 0s;
 	-o-transition: all .2s ease 0s;
@@ -520,7 +532,7 @@ NAVBAR
 }
 .feature-bg{
 	background: #f7f7f7;
-	min-height: 350px;
+	min-height: 250px;
 }
 .feature-bg.white{
 	background: #f9f9f9;
@@ -971,6 +983,12 @@ NAVBAR
 ===============================================================*/
 #feedback{
 	padding: 80px 0px;
+
+}
+#feedback p{
+	margin-top: 50px;
+	font-size: 23px;
+	text-align: center;
 }
 #feedback .sec-heading{
 	margin-bottom: 40px;
@@ -980,7 +998,10 @@ NAVBAR
 	color: #333;
 	font-weight: 600;
 }
-
+#feedback h1{
+	font-size: 20px;
+	line-height: 20px;
+}
 #testimonial-carousel p{
 	font-size: 14px;
 	line-height: 24px;
@@ -1302,7 +1323,16 @@ NAVBAR
 	border-left: 0px;
 }
 
-
+/* REVIEWS */
+#reviews{
+	position: relative;
+	background-image: url("../images/bg/features-bg.jpg");
+	background-attachment: fixed !important;
+	background-size: cover;
+	background-repeat: repeat;
+	color: #FFF;
+	padding: 80px 0px;
+}
 
 
 /*Subscription
@@ -1332,8 +1362,8 @@ NAVBAR
 /*FOoter
 =========================================================================*/
 
-#footer{
-	padding: 50px 0px;
+.footer{
+	height: 400px;
 }
 
 .footer-socail{
@@ -1467,12 +1497,12 @@ NAVBAR
 	border: 1px solid green;
 }
 .form-box-horizontal{
-	padding: 20px;
-	padding-bottom: 50px;
+	padding: 10px;
 }
 .form-box-horizontal h1{
 	font-size: 29px;
 	text-align: center;
+	margin-top: 4px;
 	margin-bottom: 0;
 	color:#C6FEFF;
 }
@@ -1501,7 +1531,6 @@ NAVBAR
   background-size: cover;
   height: auto;
   overflow: hidden;
-  padding-top: 20px;
 }
 .form-background-color{
 	padding-top: 0 !important;
@@ -1513,6 +1542,7 @@ NAVBAR
   padding-top: 100px;
 }
 .footer-container{
+	text-align: center;
 	background-color: #3DA1FA;
 	color: white;
 	padding:8px;	
