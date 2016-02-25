@@ -878,7 +878,9 @@ NAVBAR
 .item-content ul li i{
 	color: #fff;
 }
+#benefit .item-right-list
 
+}
 /*ITEM-right-lits
 ==================================================================*/
 .item-right-list{
@@ -888,7 +890,6 @@ NAVBAR
 }
 .item-right-list .col-md-7{
 	margin-left: -40px;
-	padding-top: 50px;
 }
 .item-content ul{
 	margin-top: 30px;
