@@ -340,11 +340,10 @@ NAVBAR
 	padding-right: 0;
 }
 .phone-box{
-	text-align: center;
-	width: 180px;
+	text-align: center!important;
+	width: 150px;
 	float:right;
 	text-align: right;
-	margin-right: 15px;
   font-family: "Roboto Condensed";
   font-size: 16px;
   font-weight: 400;
@@ -492,6 +491,7 @@ NAVBAR
 .feature-bg:hover .read-more:before,.feature-bg:hover .read-more:after{
 	background: #fff;
 }
+
 .icon-box {
 	-webkit-transition: all .2s linear 0s;
 	-o-transition: all .2s linear 0s;
