@@ -613,6 +613,34 @@ NAVBAR
 	margin: 0px auto;
 }
 
+/*FEATURE SECTION*/
+#feature h2{
+	margin-bottom: 80px;
+	font-size: 28px;
+}
+#feature span{
+
+	display: block;
+	margin-top: 4px;
+	font-size: 25px;
+	float: left;
+	width: 40px;
+	height: 40px;
+	color:#00aeff;
+	text-align: center;
+	border-radius: 100%;
+	line-height: 35px;
+	-webkit-box-shadow: 0px 0px 5px 5px#00aeff;
+	box-shadow: 0px 0px 0px 5px#00aeff;
+}
+.about-inner .row{
+	display: table;
+}
+.about-inner .row [class*="col-"]{
+	float: none;
+  display: table-cell;
+  vertical-align: top;
+}
 .about-wrapper.wrapper-right .about-inner i{
 	float: left;
 	margin-left: 0px;
@@ -860,7 +888,6 @@ NAVBAR
 	font-size: 16px;
 }
 .item-content li i{
-	/*LOOK HERE*/
 	float: left;
 	margin-right: 25px;
 	font-size: 20px;
@@ -1010,6 +1037,7 @@ NAVBAR
 }
 
 
+
 /*PRICING section
 ============================================*/
 
@@ -1058,6 +1086,7 @@ NAVBAR
 	color: #fff;
 	font-size: 14px;
 }
+
 .pricing-desc{
 	background: #333;
 	text-align: center;

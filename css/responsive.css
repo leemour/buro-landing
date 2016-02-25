@@ -12,11 +12,24 @@
 }
 
 
+/* hide arrow when block become xs */
+@media(min-width: 991px){
+	.right_text:first-child{
+		margin-top: 100px;
+	}
+	.right_text:last-child{
+		margin-top: 100px;
+	}
+	.left_text:last-child{
+		margin-top: 100px;
+	}
+	.center-text{
+		margin-top: 25px;
+	}
+}
 /* Medium Devices, Desktops */
 @media (min-width : 768px) {
 	
-	.navbar-left{
-	}
 }
 .static-logo{
 		margin-top: -10px;
