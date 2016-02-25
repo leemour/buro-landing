@@ -335,6 +335,7 @@ NAVBAR
 	background-color: #1799BE !important;
 	color:white !important;
 	border-bottom: 3px solid #277197;
+	transition: 0.4s;
 }
 .phone-container{
 	padding-right: 0;
@@ -452,6 +453,7 @@ NAVBAR
 }
 #slider .form .footer-text-box-phone{
 	height: 35px;
+	font-size: 15px;
 }
 #slider .form h1{
 	font-size:18px;
