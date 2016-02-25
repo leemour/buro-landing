@@ -814,6 +814,7 @@ NAVBAR
 	font-size: 16px;
 }
 .item-content li i{
+	/*LOOK HERE*/
 	float: left;
 	margin-right: 25px;
 	font-size: 20px;
@@ -1378,6 +1379,9 @@ NAVBAR
 }
 .form-box h1{
 	font-size:25px;
+}
+.lead-form-inner-cont{
+	/*HEY LOOK HERE*/
 }
 .form-inner-cont{
 	padding: 20px;
