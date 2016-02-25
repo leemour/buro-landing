@@ -382,10 +382,10 @@ NAVBAR
 	width: 300px;
 	height: 700px;
 }
-.navbar-brand{
+ .navbar-brand{
 	padding-top: 0!important;
+	margin-bottom: 4px;
 }
-
 .navbar-fixed-top .logo{
 	background-image: url("../images/logo3.gif");
 	background-repeat: no-repeat;
@@ -398,6 +398,7 @@ NAVBAR
 	padding-left: 30px;
 	padding-top: 5px!important;
 }
+
 .top-nav-collapse .navbar-brand .logo{
 	 background-image:none;
 	 background-image: url("../images/logo2.gif");

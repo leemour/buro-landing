@@ -11,6 +11,7 @@ $(window).bind('scroll', function() {
     var nav_height = $(window).height() - 930;
     if ($(window).scrollTop() > nav_height) {
         $('.navbar-default').addClass('on');
+        $('.logo').removeClass('static-logo');
     }
     
 });
