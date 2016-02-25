@@ -17,9 +17,7 @@ $(window).bind('scroll', function() {
         $('.green-button').addClass('white');
 
     }
-    $('.green-button').click(function(){
-      $('.green-button').removeClass('white');
-    });
+   
     
 });
 

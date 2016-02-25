@@ -334,12 +334,13 @@ NAVBAR
 .navbar .green-button{
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 0;
-	padding-bottom: 0;
-	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	background-color: #0B9D0B;
 	border-bottom: 3px solid #037C29;
 	margin-right: -15px;
+	font-size: 14px;
+	font-family: 'Raleway'
 }
 .navbar .white{
 	color: white !important;
