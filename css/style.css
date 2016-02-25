@@ -824,7 +824,7 @@ NAVBAR
 ===========================================================*/
 #benefit{
 	position: relative;
-	background-image: url("../images/bg/features-bg.jpg");
+	background-image: url("../images/bg/slider-bg.jpg");
 	background-attachment: fixed !important;
 	background-size: cover;
 	background-repeat: repeat;
@@ -1326,7 +1326,7 @@ NAVBAR
 /* REVIEWS */
 #reviews{
 	position: relative;
-	background-image: url("../images/bg/features-bg.jpg");
+	background-image: url("../images/bg/bg1.jpg");
 	background-attachment: fixed !important;
 	background-size: cover;
 	background-repeat: repeat;
@@ -1527,7 +1527,7 @@ NAVBAR
 	font-size: 15px;
 }
 .form-background-image{
-  background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
+  background: url("../images/app1.png") no-repeat center center fixed;
   background-size: cover;
   height: auto;
   overflow: hidden;
