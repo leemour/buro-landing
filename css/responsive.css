@@ -6,12 +6,19 @@
 	.dropdown i{
 		display: none;
 	}
+	.navbar-left{
+		margin-left: 150px;
+	}
 }
 
 
 /* Medium Devices, Desktops */
-@media (min-width : 992px) {
-	
+@media (min-width : 768px) {
+	.navbar-fixed-top .logo{
+		margin-top: -10px;
+	}
+	.navbar-left{
+	}
 }
 
 /* Small Devices, Tablets */
@@ -19,6 +26,8 @@
 	.heading-inner::before,.heading-inner::after{
 		display: none;
 	}
+	/* NAVABAR */
+	
 	.slider {
     background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -72,7 +81,8 @@
 	.heading-inner {
     	width: 90%;
 	}
-
+	.navbar-brand .logo{
+	}
 	.top-link li{
 		margin-bottom: 38px;
 	}

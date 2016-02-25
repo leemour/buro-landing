@@ -298,33 +298,34 @@ NAVBAR
 .navbar {
   border: none;
 }
-.navbar ul.nav > li > a {
+.navbar ul.nav  li > a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 12px;
   font-weight: bold;
   border-top: solid 3px transparent;
 }
-.navbar ul.nav > li > .navig-button:hover {
+.navbar ul.nav  li > .navig-button:hover {
   border-top: solid 3px #79AAD3;
 }
 @media (max-width: 767px) {
-  .navbar ul.nav > li > .navig-button:hover {
+  .navbar ul.nav  li > .navig-button:hover {
     border-top: solid 3px transparent;
   }
 }
 
-.navbar ul.nav > li.active > .navig-button, .navbar ul.nav > li.open > .navig-button {
+.navbar ul.nav  li.active > .navig-button, .navbar ul.nav  li.open > .navig-button {
   text-decoration: none !important;
   border-top: solid 3px #223867;
   background-color:#EEEEEE;
 }
 @media (max-width: 767px) {
-  .navbar ul.nav > li.active > a,
-  .navbar ul.nav > li.open > a {
+  .navbar ul.nav  li.active > a,
+  .navbar ul.nav  li.open > a {
     border-top: solid 3px transparent;
   }
 }
+
 .navbar .green-button{
 	background-color: #0B9D0B;
 	color:white !important;
@@ -335,12 +336,29 @@ NAVBAR
 	color:white !important;
 	border-bottom: 3px solid #277197;
 }
-
+.phone-container{
+	padding-right: 0;
+}
+.phone-box{
+	text-align: center;
+	width: 180px;
+	float:right;
+	text-align: right;
+	margin-right: 15px;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
 .navbar-fixed-top{
 	padding: 10px;
 }
 .top-nav-collapse{
 	padding: 0;
+	
+}
+.top-nav-collapse .phone-box{
+	display: none;
 }
 /*
 
@@ -367,11 +385,11 @@ NAVBAR
 .navbar-brand{
 	padding-top: 0!important;
 }
+
 .navbar-fixed-top .logo{
 	background-image: url("../images/logo3.gif");
 	background-repeat: no-repeat;
   background-size: 125px 50px;
-
 	width: 150px;
 	height: 50px;
 }
@@ -386,6 +404,7 @@ NAVBAR
 	 background-size:45px 45px;
 	 width: 45px;
 	 height: 45px;
+	 margin-right: 40px;
 }
 #slider .contacts{
 	text-align: center;
@@ -397,33 +416,7 @@ NAVBAR
 #slider p{
 	padding-left: -50px;
 }
-#slider .contacts{
-}
-#slider .fa{
-    font-size: 25px;
-    color: #A0EDFF;
-}
-#slider .fa-map-marker{
-     margin-left: 2px;
-}
-
-#slider .contacts .after-phone{
-    margin-left: 40px;
-}
-#slider .contacts .phone-text{
-    font-size: 19px;
-}
-#slider .contacts{
-	padding-left: 10px;
-}
-#slider .contacts span{
-    margin-left: 10px ;
-    font-family: "Roboto Condensed";
-    font-size: 16px;
-    color: #ECECEC;
-    font-weight: 400;
-    text-align: center;
-}
+	
 .container{
 	text-align: center;
 }
