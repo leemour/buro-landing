@@ -366,12 +366,9 @@ NAVBAR
 #slider {
     background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
     background-size: cover;
-    min-height: 580px;
     height: auto;
-		min-height: 100%;
     overflow: hidden;
-    padding-bottom: 80px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .slider-wrap{
 	padding: 20px 0px;
@@ -422,23 +419,57 @@ NAVBAR
 }
 .slider-content{
 	margin-top: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .slider-content p{
-	font-size: 19px;
+	font-size: 21px!important;
 }
+#slider {
 
-#slider h1 {
-	margin-left: auto;
-	margin-right: auto;
-  margin: 0 0 20px 0;
-  font-size: 40px;
+}
+#slider h1{
 	color: #fff;
+	padding-bottom: 0px;
+}
+#slider .form-container{
+}
+#slider .form{
+	border: 1px solid #2E2E2E;
+	background-color:  #2E2E2E;
+	background:rgba(51,51,51,0.3);
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	width: auto;
+	height: auto;
+}
+#slider .form .footer-btn-phone{
+	background-color: #00AEFF;
+	padding: 10px 25px;
+
+}
+#slider .form .footer-text-box-phone{
+	height: 35px;
+}
+#slider .form h1{
+	font-size:18px;
+	line-height: 25px;
+}
+#slider .slider-header > h1 {
+  margin: 120px 0 30px 0;
+  font-size: 30px;
 	line-height: 60px;
 	font-weight: 10;
+	padding-bottom:20px; 
+	line-height: 40px;
+
 }
 #slider p {
   margin-bottom: 25px;
   color: #fff;
+  font-size: 24px;
 }
 .form-phone{
 	margin-top: 80px;
@@ -451,7 +482,20 @@ NAVBAR
 	color:white;
 	font-size: 18px;
 }
-
+#slider .facts-title-container{
+	margin-top: 140px;
+  border-top: 1px solid white;
+  background:rgba(0, 174, 255,0.8);
+	text-align: center;
+	padding:10px;
+	padding-top: 15px;
+}
+#slider .facts-title{
+	margin: 0;
+	color:white;
+	font-size: 25px;
+	text-transform: lowercase;	
+}
 /*Features section
 =============================================================*/
 #feature{
@@ -838,11 +882,15 @@ NAVBAR
 
 #counter-area{
 	background: #00AEFF;
-	padding: 80px 0px;
+	padding: 60px 0px 40px 0px;
 }
-.facts{
+#counter-area h1{
+	padding-bottom: 30px;
+	color:#fff;
+	font-size:30px;
+	font-weight: 0;
+}
 
-}
 .line{
 	width: 50px;
 	background: #fff;
