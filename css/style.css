@@ -307,10 +307,12 @@ NAVBAR
 }
 .navbar ul.nav  li > .navig-button:hover {
   border-top: solid 3px #79AAD3;
+
 }
 @media (max-width: 767px) {
   .navbar ul.nav  li > .navig-button:hover {
     border-top: solid 3px transparent;
+
   }
 }
 
@@ -318,11 +320,14 @@ NAVBAR
   text-decoration: none !important;
   border-top: solid 3px #223867;
   background-color:#EEEEEE;
+	color: black; 
+	
 }
 @media (max-width: 767px) {
   .navbar ul.nav  li.active > a,
   .navbar ul.nav  li.open > a {
     border-top: solid 3px transparent;
+
   }
 }
 
@@ -333,9 +338,14 @@ NAVBAR
 	padding-bottom: 0;
 	height: 30px;
 	background-color: #0B9D0B;
-	color:white !important;
 	border-bottom: 3px solid #037C29;
 	margin-right: -15px;
+}
+.navbar .white{
+	color: white !important;
+}
+.navbar .green-button .black{
+	color:black;
 }
 .navbar #phone-text{
 	margin-left: 10px;
@@ -349,6 +359,9 @@ NAVBAR
 	color:white !important;
 	border-bottom: 3px solid #277197;
 	transition: 0.4s;
+}
+.navbar .active .green-button{
+	background-color: black;
 }
 .phone-container{
 	padding-right: 0;
@@ -508,8 +521,8 @@ NAVBAR
 #slider .facts-title{
 	margin: 0;
 	color:white;
-	font-size: 25px;
-	text-transform: lowercase;	
+	font-size: 21px;
+	text-transform: uppercase;	
 }
 /*Features section
 =============================================================*/
@@ -719,6 +732,7 @@ NAVBAR
 .carousel-indicators li.active{
 	background: #00AEFF;
 	border: 0px;
+	color:black;
 }
 
 /*TESTIMONIAL

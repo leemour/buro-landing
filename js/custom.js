@@ -13,6 +13,13 @@ $(window).bind('scroll', function() {
         $('.navbar-default').addClass('on');
         $('.logo').removeClass('static-logo');
     }
+    if ($(window).scrollTop() < nav_height){
+        $('.green-button').addClass('white');
+
+    }
+    $('.green-button').click(function(){
+      $('.green-button').removeClass('white');
+    });
     
 });
 
