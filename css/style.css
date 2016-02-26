@@ -532,6 +532,7 @@ NAVBAR
 .feature-bg:hover .read-more:after {
     background: #fff;
 }
+.
 .icon-box {
     -webkit-transition: all .2s linear 0s;
     -o-transition: all .2s linear 0s;
@@ -593,8 +594,9 @@ NAVBAR
     padding-bottom: 40px;
 }
 #profit i {
-    margin-right: 20px;
-    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+    float: left;
 }
 
 /*About section
@@ -637,14 +639,22 @@ NAVBAR
     line-height: 35px;
     -webkit-box-shadow: 0px 0px 5px 5px#00aeff;
     box-shadow: 0px 0px 0px 5px#00aeff;
+    margin-left: 20px!important;
+    margin-top: 3px!important;
 }
-#feature .about-content span.paragraph{
-	margin-left: 20px;
-} 
+#feature .about-content{
+    margin-top: 70px;
+}
+#feature .col-md-1{
+    text-align:center;
+}
+#feature .about-inner .paragraph{
+    margin:auto;
+}
 .about-inner .row {
     display: table;
 }
-.about-inner .row [class*="col-"] {
+.about-inner  [class*="col-"] {
     float: none;
     display: table-cell;
     vertical-align: top;

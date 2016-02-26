@@ -21,8 +21,12 @@
 	
 }
 /* Medium Devices, Desktops */
-@media (min-width : 768px) {
-	
+@media (max-width : 768px) {
+	#feature{
+	}
+	#feature .about-content{
+		margin-top: 30px;
+	}
 }
 .static-logo{
 		margin-top: -10px;
