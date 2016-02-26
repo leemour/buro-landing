@@ -616,6 +616,7 @@ NAVBAR
 }
 #profit p:last-child{
 	text-align: center;
+	margin-top: 25px;
 }
 #profit h2{
 	padding-bottom: 40px;
@@ -859,7 +860,7 @@ NAVBAR
 }
 .item-list-left{}
 .item-list-left li{
-	padding-bottom: 20px;
+	padding-bottom: 60px;
 }
 .item-list-left li i{
 	font-size: 50px;
@@ -884,12 +885,13 @@ NAVBAR
 .item-content ul li i{
 	color: #fff;
 }
-#benefit .item-right-list
+#benefit .item-right-list{
 
 }
 /*ITEM-right-lits
 ==================================================================*/
-.item-right-list{
+#benefit .item-content{
+	font-size: 26px;
 }
 .item-right-list .col-md-5,.item-right-list .col-md-7{
 	padding: 0px;
@@ -898,7 +900,6 @@ NAVBAR
 	margin-left: -40px;
 }
 .item-content ul{
-	margin-top: 30px;
 }
 .item-content li:first-child{
 	border-top: 0px;
