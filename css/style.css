@@ -582,6 +582,9 @@ NAVBAR
 #profit p {
     font-size: 18px;
 }
+#profit .about-inner {
+	margin-bottom: 80px;
+}
 #profit p:last-child {
     text-align: center;
     margin-top: 25px;
@@ -593,13 +596,14 @@ NAVBAR
     margin-right: 20px;
     float: right;
 }
+
 /*About section
 ===========================*/
 
 #about {
     padding: 80px 0px;
 }
-.about-inner {
+#benefit .about-inner {
     margin-bottom: 50px;
     padding: 0px 20px;
 }
@@ -634,6 +638,9 @@ NAVBAR
     -webkit-box-shadow: 0px 0px 5px 5px#00aeff;
     box-shadow: 0px 0px 0px 5px#00aeff;
 }
+#feature .about-content span.paragraph{
+	margin-left: 20px;
+} 
 .about-inner .row {
     display: table;
 }
