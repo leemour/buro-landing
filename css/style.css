@@ -611,6 +611,12 @@ NAVBAR
 #profit h1{
 	float: left;
 }
+#profit p{
+	font-size: 18px;
+}
+#profit p:last-child{
+	text-align: center;
+}
 #profit h2{
 	padding-bottom: 40px;
 }
