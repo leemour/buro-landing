@@ -354,6 +354,7 @@ NAVBAR
 	font-weight: 600;
 	font-size: 16px;
 	font-family: 'Arial';
+	margin-bottom: 0;
 }
 .navbar .green-button:hover{
 	background-color: #1799BE !important;
