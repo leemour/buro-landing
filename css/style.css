@@ -425,7 +425,7 @@ NAVBAR
 .slider-content p {
     font-size: 21px!important;
 }
-#slider {} #slider h1 {
+#slider h1 {
     color: #fff;
     padding-bottom: 0px;
 }
@@ -449,16 +449,19 @@ NAVBAR
     font-size: 15px;
 }
 #slider .form h1 {
-    font-size: 18px;
+    /*font-size: 18px;*/
     line-height: 25px;
 }
 #slider .slider-header > h1 {
     margin: 120px 0 30px 0;
-    font-size: 30px;
+    /*font-size: 30px;*/
     line-height: 60px;
     font-weight: 10;
     padding-bottom: 20px;
     line-height: 40px;
+}
+#slider .general-title{
+    font-size: 30px!important;
 }
 #slider p {
     margin-bottom: 25px;
