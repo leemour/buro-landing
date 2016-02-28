@@ -516,7 +516,12 @@ NAVBAR
     margin-bottom: 20px;
 }
 
-
+.feature-content i{
+    float: left;
+}
+.feature-content h4{
+    float: left;
+}
 .feature-content h3{
     font-size: 16px;
     font-weight: 600;
@@ -804,7 +809,7 @@ NAVBAR
 
 #benefit {
     position: relative;
-    background-image: url("../images/bg/slider-bg.jpg");
+    background-image: url("../images/showcase-bg-blur.jpg");
     background-color: white;
     background-attachment: fixed !important;
     background-size: cover;
