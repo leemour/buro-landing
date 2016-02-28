@@ -262,6 +262,18 @@ h5 {
     font-size: 30px;
     text-align: center;
 }
+#work-steps .paragraph {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    width: 30px;
+    height: 30px;
+    color: #00aeff;
+    -webkit-box-shadow: 0px 0px 5px 5px#00aeff;
+    box-shadow: 0px 0px 0px 4px#00aeff;
+}
 #work-steps p {
     font-size: 18px;
     text-align: center;
@@ -605,22 +617,7 @@ NAVBAR
     margin-bottom: 80px;
     font-size: 28px;
 }
-#feature .paragraph {
-    display: block;
-    margin-top: 4px;
-    font-size: 20px;
-    float: left;
-    width: 30px;
-    height: 30px;
-    color: #00aeff;
-    text-align: center;
-    border-radius: 100%;
-    line-height: 27px;
-    -webkit-box-shadow: 0px 0px 5px 5px#00aeff;
-    box-shadow: 0px 0px 0px 4px#00aeff;
-    margin-left: 20px!important;
-    margin-top: 3px!important;
-}
+
 #feature .about-content{
     margin-top: 70px;
     
@@ -952,9 +949,37 @@ NAVBAR
     text-align: center;
     font-weight: bold;
 }
+#feedback h4{
+    text-align: center;
+    margin-bottom: 30px;
+}
 #feedback p {
     font-size: 18px;
     text-align: center;
+}
+#feedback .contact-container{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#feedback .contact-container .icon{
+ text-align: center;
+}
+#feedback .contact-container:last-child{
+    margin-bottom: 50px;
+}
+
+
+#feedback .contact-container p,i{
+    margin: 0;
+}
+.contact-container p{
+}
+.contact-container i{
+    float:left;
+    font-size: 25px;
+    color:#00AEFF;
 }
 #feedback .sec-heading {
     margin-bottom: 40px;
@@ -1335,17 +1360,56 @@ NAVBAR
 .footer-form {
     background-color: #DBF4FF;
     border:1px solid #00AEFF;
-    padding: 30px 20px;
-    text-align: center;
-
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-form .top-form-container{
+    padding: 20px;
+    background-color: white;
+}
+.footer-form h1,h3{
+    float: left;
+    margin: 0;
+}
+.footer-form i{
+    font-size: 40px;
+    color: #B6B6B6;
+    float: right;
+}
+.footer-form .top-form-container i{
+    float: right;
+}
+.footer-form .bottom-form-container{
+    padding: 20px;
+    background-color: silver;
 }
 .footer-form h1 {
+    margin-top: 0;
     font-weight: 550;
+    color:#5C5959;
+}
+.footer-form h3{
+    font-size: 15px;
+    font-weight: 0;
+    color: #9E9E9E;
+
 }
 .footer-form input{
     margin-top: 20px!important;    
-    border: 1px solid #686868;
+    border: 1px solid #A09797;
     color: #454545!important;
+}
+.footer-form .text-box-phone{
+    background-color: white;
+    font-size: 14px;
+    height: 40px;
+    width:100%;
+    border-radius: 3px!important;    
+}
+.footer-form .btn-phone{
+    width: 100%!important;
+    font-size: 12px!important;
 }
 /*Overlay
 ============================================*/
