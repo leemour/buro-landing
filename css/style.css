@@ -418,7 +418,7 @@ NAVBAR
     min-height: 100%;
     overflow: hidden;
     padding-bottom: 80px;
-    padding-top: 180px;
+    padding-top: 70px;
 }
 .slider-wrap{
     padding: 20px 0px;
@@ -466,7 +466,7 @@ NAVBAR
   max-width: 600px;
 }
 #slider .form-phone{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .form-phone .btn-phone{
     margin-top: 0;
@@ -559,7 +559,7 @@ NAVBAR
 /*About section
 ===========================*/
 #about{
-    padding: 80px 0px;
+    padding: 20px 0px;
     padding-bottom: 100px;
 }
 
@@ -588,11 +588,18 @@ NAVBAR
     height: 300px;
 }
 #about .feature-content p{
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     margin:0;
     margin-left: auto;
     margin-right: auto;
+}
+#about h2{
+    font-size: 28px;
+}
+#about p{
+    margin-top: 5px;
+    font-size: 18px;
 }
 #about .feature-content h2{
     font-size: 16px;
@@ -640,7 +647,9 @@ NAVBAR
     margin-bottom: 80px;
     font-size: 28px;
 }
-
+#feature .img-feature{
+    margin-top: 170px!important;
+}
 #feature .about-content{
     margin-top: 70px;
     
@@ -830,17 +839,29 @@ NAVBAR
 }
 #benefit h2 {
     color: #fff;
-    padding-bottom: 60px;
+    /*padding-bottom: 60px;*/
     font-size: 28px;
+    padding-bottom: 0;
+    padding-right: 10px;
+}
+#benefit h3{
+    color:#BDBDBD;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 30px;
 }
 .benefit-content p {
+    padding-right: 20px;
+    margin-top: 25px;
     font-size: 16px;
     color: white;
 }
 #benefit .photo-container{
-    margin-top: 30px;
-    background-color: black;
-    background-image: url("../images/overview/screen3.jpg");
+    margin-top: 60px;
+    background-image: url("../images/app1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
     width: 300px;
     height: 300px;
 }
@@ -935,6 +956,12 @@ NAVBAR
     font-size: 60px;
     line-height: 60px;
     color: #fff;
+}
+.facts-wrap i.fa{
+    font-size: 70px;
+    color:white;
+    margin-bottom: 0;
+    font-weight: 100;
 }
 .fact-content h6 {
     font-size: 20px;
@@ -1452,13 +1479,22 @@ NAVBAR
     height: 100%;
     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
 }
-.bg-overlay-medium {
+
+.bg-overlay-light {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);
+}
+.bg-overlay-medium {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.8);
 }
 /* Back To Top Button 
 ======================================*/
@@ -1548,6 +1584,7 @@ NAVBAR
 }
 .form-background h4{
     color:white;
+    font-weight: normal !important;
 }
 .form-background-image {
     background: url("../images/back-form.jpg") no-repeat center center fixed;
