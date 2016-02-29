@@ -262,18 +262,7 @@ h5 {
     font-size: 30px;
     text-align: center;
 }
-#work-steps .paragraph {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 40px;
-    width: 30px;
-    height: 30px;
-    color: #00aeff;
-    -webkit-box-shadow: 0px 0px 5px 5px#00aeff;
-    box-shadow: 0px 0px 0px 4px#00aeff;
-}
+
 #work-steps p {
     font-size: 18px;
     text-align: center;
@@ -484,7 +473,9 @@ NAVBAR
 .feature-inner{
     padding: 30px 10px ;
 }
-
+.feature-content h3{
+    text-align: center;
+}
 .feature-bg,.feature-bg.white{
     -webkit-transition: all .2s ease 0s;
     -o-transition: all .2s ease 0s;
@@ -516,54 +507,8 @@ NAVBAR
     margin-bottom: 20px;
 }
 
-.feature-content i{
-    float: left;
-}
-.feature-content h4{
-    float: left;
-}
-.feature-content h3{
-    font-size: 16px;
-    font-weight: 600;
-    /*text-transform: capitalize;*/
-    text-transform: uppercase;
-    margin: 10px 0px;
-    position: relative;
-    padding-bottom: 10px;
-}
-.feature-content h3:after{
-    position: absolute;
-    content:"";
-    width: 50px;
-    height: 2px;
-    background: #444;
-    bottom: 0px;
-    left: 40%;
-}
 
-.feature-content p{
-    margin: 10px 0px 20px;
-    color: #444;
-    padding: 10px 10px;
-}
-.read-more{
-    text-transform: capitalize;
-    padding: 10px 20px;
-    position: relative;
-    border-radius: 20px;
-    border: 1px solid#00AEFF;
-    font-weight: 700;
-}
-.feature-content:hover .read-more{
-    border: 1px solid#fff;
-}
-.feature-content:hover h3:after{
-    background: #fff;
-}
 
-.feature-content:hover .icon-box {
-    color: #fff!important;
-}
 
 
 /*PROFIT
@@ -635,13 +580,6 @@ NAVBAR
 }
 #feature .about-inner{
     margin-left: 10px;
-}
-#feature .about-inner .paragraph{
-    margin-left: 0!important;
-    margin-right: 20px!important;
-    margin:auto;
-    font-weight: 900;
-    text-align: center;
 }
 .about-inner .row {
     display: table;
@@ -1382,7 +1320,7 @@ NAVBAR
 }
 .footer-form i{
     font-size: 40px;
-    color: #B6B6B6;
+    color: #6BC7F2;
     float: right;
 }
 .footer-form .top-form-container i{
@@ -1390,12 +1328,12 @@ NAVBAR
 }
 .footer-form .bottom-form-container{
     padding: 20px;
-    background-color: silver;
+    background-color: #6BC7F2;
 }
 .footer-form h1 {
     margin-top: 0;
     font-weight: 550;
-    color:#5C5959;
+    color: #292929;
 }
 .footer-form h3{
     font-size: 15px;
@@ -1418,6 +1356,9 @@ NAVBAR
 .footer-form .btn-phone{
     width: 100%!important;
     font-size: 12px!important;
+}
+.footer-form .btn-phone:hover{
+    background-color: #0B9D0B;
 }
 /*Overlay
 ============================================*/
@@ -1532,7 +1473,12 @@ NAVBAR
     height: auto;
     overflow: hidden;
 }
-
+.form-background-image-inverce{
+    background: url("../images/back-form-inverse.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    overflow: hidden;
+}
 .form-background-color {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
