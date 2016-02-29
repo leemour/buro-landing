@@ -317,9 +317,6 @@ NAVBAR
 .navbar .white {
     color: white !important;
 }
-.navbar .green-button .black {
-    color: black;
-}
 .navbar #phone-text {
     margin-left: 10px;
     color: #084C1D;
@@ -336,27 +333,32 @@ NAVBAR
     font-size: 15px;
     text-align: center;
 }
+.navbar .navig-button{
+    text-align: center;
+}
+.navbar .navbar-right .green-btn-container{
+    text-align: center;
+}
 .navbar  .navbar-right .green-button{
-    width:150px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     text-align: center;
     background-color: #0B9D0B;
     border-bottom: 3px solid #037C29;
     margin-right: -15px;
     font-size: 14px;
     font-family: 'Raleway';
-    margin-top: -10px;
+    font-size: 11px;
+    width:100%;
+    display: block;
+}
+.navbar .active .green-button{
+    background-color: #1799BE !important;
+    border-bottom: 3px solid #277197;
 }
 .navbar .navbar-right  .green-button:hover {
     background-color: #1799BE !important;
     color: white !important;
     border-bottom: 3px solid #277197;
     /*transition: 0.4s;*/
-    
-}
-.navbar .active .green-button {
-    background-color: black;
 }
 .phone-container {
     padding-right: 0;
@@ -557,7 +559,7 @@ NAVBAR
 ===========================*/
 #about{
     padding: 80px 0px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
 
 #about .text-center p{
@@ -1294,7 +1296,7 @@ NAVBAR
 }
 .feature-single i {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 40px;orm-background
 }
 .feature-single h3 {
     margin: 20px 0px;
@@ -1534,12 +1536,25 @@ NAVBAR
     height: 35px;
     font-size: 15px;
 }
+.form-background .footer-text-box-phone{
+    text-align: center;
+    color:white!important;
+}    
+.form-background .footer-btn-phone{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 7px;
+}
+.form-background h4{
+    color:white;
+}
 .form-background-image {
     background: url("../images/back-form.jpg") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     overflow: hidden;
 }
+
 .form-background-image-inverce{
     background: url("../images/back-form-inverse.jpg") no-repeat center center fixed;
     background-size: cover;
