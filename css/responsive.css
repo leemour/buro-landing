@@ -84,12 +84,15 @@
 		padding-left: 10px;
 		padding-right: 30px;
 	}
+	.navbar .green-button{
+	margin-right: -100px!important;		
+	}
 }
 
 
 /* Custom, iPhone Retina */ 
 @media (min-width : 320px) and (max-width : 767px)  {
-	
+
 	.heading-inner {
     	width: 90%;
 	}

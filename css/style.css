@@ -345,10 +345,11 @@ NAVBAR
     border-bottom: 3px solid #037C29;
     margin-right: -15px;
     font-size: 14px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'sans-serif';
     font-size: 11px;
     width:100%;
     display: block;
+    min-width: 150px;
 }
 .navbar .active .green-button{
     background-color: #1799BE !important;
