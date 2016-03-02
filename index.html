@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -24,9 +24,10 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- Responsive styles-->
   <link rel="stylesheet" href="css/responsive.css">
-  <!-- Шрифт Roboto Condesed!!! -->
+  <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,71 +37,137 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar-fixed-top">
-    <!-- *** NAVBAR *** -->
-    <div class="navbar navbar-default navbar-fixed-top on" role="navigation" id="navbar">
-      <div class="container phone-container">
-      </div>
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <div class="logo static-logo"></div>
-          </a>
-        </div>
-        <div class="navbar-collapse collapse" id="navigation">
-          <ul class="nav navbar-nav navbar-left">
-            <li><a href="#slider" class="navig-button page-scroll">Начало</a></li>
-            <li><a href="#wherefore" class="navig-button page-scroll">почему мы</a></li>
-            <li><a href="#benefit" class="navig-button page-scroll">Назвать</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <div class="row">
-              <li><p id="phone-text">+7 (812) 389-53-79</p></li>
-              <li class="green-btn-container"><a href="#feedback" class="green-button page-scroll white">оставить заявку</a></li>
+
+    <div class="row top-menu stick-to-top">
+      <nav class="navbar navbar-default navbar-fixed-top on">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button class="navbar-toggle collapsed mobile-menu-link" data-target="#main-menu" data-toggle="collapse" type="button">
+              <span class="sr-only">Открыть меню</span>
+              <i class="fa fa-bars"></i>
+            </button>
+            <!--logo-->
+            <h3 class="navbar-brand">
+              <a href="/">
+                <img alt="Бизнес Бюро" src="images/logo/logo.gif">
+              </a>
+            </h3><!--/logo-->
+            <div class="tagline visible-lg visible-xl">
+              Купить бизнес — это просто.
             </div>
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
-      </div>
-    </div>
-    <!-- /#navbar -->
-    <!-- slider section -->
-    <section id="slider">
-      <!-- <div class="slider-wrap"> -->
+          </div>
+
+          <div class="top-contacts hidden-xs">
+            <span class="tel ya-main-phone">
+              (812) 648-41-44
+            </span>
+          </div>
+
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="nav navbar-nav">
+              <li class="menu-item"></li>
+              <li class="menu-item dropdown has-sub">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">
+                  Бизнесы <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="extender"></div>
+                <ul class="dropdown-menu sub-menu" role="menu">
+                  <li class="menu-item">
+                    <a href="/businesses/hot">Лучшие</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="/businesses">В продаже</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="/businesses/sold">Продано</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item dropdown has-sub">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">
+                  Услуги <i class="fa fa-chevron-down"></i>
+                </a>
+                <div class="extender"></div>
+                <ul class="dropdown-menu sub-menu" role="menu">
+                  <li class="menu-item">
+                    <a href="/services/ocenka-i-konsalting">Оценка и консалтинг</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="/services/yuridicheskie-uslugi">Юридические услуги</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="/services/audit-biznesa">Аудит бизнеса</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="/services/buhgalterskie-uslugi">Бухгалтерские услуги</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="/services/registraciyalikvidaciya-yur-lic">
+                      Регистрация/ликвидация юр. лиц
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="/about">О нас</a>
+              </li>
+              <li class="menu-item">
+                <a href="/contacts">Контакты</a>
+              </li>
+            </ul>
+          </div> <!-- /#main-menu -->
+        </div> <!-- /.container-fluid -->
+      </nav> <!-- /.navbar-->
+    </div> <!-- /.row -->
+
+
+    <section id="slider"> <!-- slider section -->
       <div class="row animated fadeIn">
         <div class="bg-overlay-light"></div>
-        <!-- logo  -->
-        <div class="col-sm-6">
-        </div>
-        <!-- logo end -->
+
+        <div class="col-sm-6"> <!-- logo  -->
+        </div> <!-- logo end -->
+
         <!-- contacts -->
         <!-- contacts end -->
       </div>
+
       <div class="container">
-        <!-- slider text -->
-        <div class="row">
+        <div class="row"> <!-- slider text -->
+
           <div class="col-md-8 ">
             <div class="slider-content">
-              <h1 class="animated fadeInDown">Продаем готовый бизнес</h1>
-              <h1 class="animated fadeInDown">в  быстрые сроки и без предоплат.</h1>
-            </div>
+              <h1 class="animated fadeInDown slider-title seo-title">
+                Хотите быстро
+                <br>
+                продать свой бизнес?
+              </h1>
+              <h2 class="slider-title seo-title">
+                Обеспечим сделку за счет обширной клиентской базы.
+                <br>
+                Десятки активных заявок на покупку каждый день.
+                <br>
+                Клиенты со всей России.
+              </h2>
+            </div> <!-- /.slider-conent -->
           </div>
-          <div class="col-md-2 animated fadeInRight">
-            <div class="order_form">
+
+          <div class="col-md-4 animated fadeInRight">
+            <div class="order_form"> <!-- .order_form -->
               <div class="wrapper">
                 <div class="title">
-                  <h3>Оставьте заявку<br/>прямо сейчас</h3>
-                  <span>и мы перезвоним вам <br>в течение 9 минут..</span>
+                  <span class="form-heading">
+                    Оставьте заявку<br/>прямо сейчас
+                  </span>
+                  <span class="form-subheading">
+                    и мы перезвоним вам <br>в течение 9 минут
+                  </span>
                 </div>
                 <form action="">
                   <div class="field name">
                     <div class="left-cont">
-                      <i class="fa fa-cog"></i>
+                      <i class="fa fa-user"></i>
                     </div>
                     <div class="right-cont">
                       <input type="text" name="name" value="" placeholder="Введите ваше имя:" />
@@ -115,7 +182,7 @@
                     </div>
                   </div>
                   <div>
-                    <input type="submit" class="send_btn" value=""></input>
+                    <input type="submit" class="send_btn" value="" />
                   </div>
                 </form>
                 <div class="protect">
@@ -123,203 +190,177 @@
                   <span>Ваши данные не будут переданы третьим лицам</span>
                 </div>
               </div>
-            </div>
+            </div> <!-- \.order_form -->
           </div>
-        </div>
-        <!-- slider text -->
+        </div> <!-- \.row -->
 
+        <!-- slider text -->
         <!-- slider phone-form -->
 
-      </div>
-    </div>
-  </section>
-  <!-- slider section end -->
+      </div> <!-- \.container -->
+    </section> <!-- slider section end -->
 
-  <section id="wherefore">
-    <div class="container">
-      <div class="row">
-        <div class="text-center">
-          <h2>ПОЧЕМУ НАС ВЫБИРАЮТ ПРОДАВЦЫ БИЗНЕСА</h2>
-          <h4 class="basic">почему сдесь так не красиво</h4>
-        </div>
-      </div>
-      <!-- heading row end -->
-      <div class="row">
-        <div class="col-md-12 col-sm-6">
-          <div class="row">
-            <div class="col-md-4 wow fadeInUp" data-wow-delay=".3s">
-              <div class="about-inner ">
-                <div class="about-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <i class="fa fa-bookmark-o"></i>
-                    </div>
-                    <div class="col-md-10">
-                      <h4>КРУПНЕЙШАЯ БАЗА клиентов</h4>
-                    </div>
-                  </div>
-                  <div class="silver-line"></div>
-                  <p>Самая большая база покупателей готового бизнеса в вашем городе.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4  wow fadeInUp" data-wow-delay=".5s">
-              <div class="about-inner ">
-                <div class="about-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <i class="fa fa-bookmark-o"></i>
-                    </div>
-                    <div class="col-md-10">
-                      <h4>без предоплаты</h4>
-                    </div>
-                  </div>
-                  <div class="silver-line"></div>
 
-                  <p> Опалата только по факту успешной сделки.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4  wow fadeInUp" data-wow-delay=".5s">
-              <div class="about-inner ">
-                <div class="about-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <i class="fa fa-bookmark-o"></i>
-                    </div>
-                    <div class="col-md-10">
-                      <h4>полная защита</h4>
-                    </div>
-                  </div>
-                  <div class="silver-line"></div>
-                  <p> Сделку купли-продажи проводят профессиональные юристы.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- row end -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="heading-inner text-center">
+            <h2 class="sec-title">
+              Как мы продаем <span>бизнес</span>
+            </h2>
+            <p>
+              Мы знаем, где взять решительных покупателей
+            </p>
+          </div> <!-- heading row end -->
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 col-sm-6">
+
+        <div class="feature-wrapper text-center">
           <div class="row">
-            <div class="col-md-4 wow fadeInUp" data-wow-delay=".3s">
-              <div class="about-inner ">
-                <div class="about-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <i class="fa fa-bookmark-o"></i>
-                    </div>
-                    <div class="col-md-10">
-                      <h4>личный брокер</h4>
+              <div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="col-md-4 col-sm-6 col-xs-12 feature-bg wow fadeInUp animated" data-wow-delay=".3s">
+                <div class="feature-inner text-center">
+                  <div class="icon-box">
+                    <i class="icon icon-book-open"></i>
+                  </div>
+
+                  <div class="feature-content">
+                    <h3>Крупнейшая база</h3>
+                    <p>
+                      Самая большая база покупателей готового бизнеса в вашем городе.
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- item1 end -->
+              <div style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;" class="col-md-4 col-sm-6 col-xs-12 feature-bg white wow fadeInUp animated" data-wow-delay=".5s">
+                <div class="feature-inner text-center">
+                  <div class="icon-box">
+                    <i class="icon icon-wallet"></i>
+                  </div>
+
+                  <div class="feature-content">
+                    <h3>Без предоплаты</h3>
+                    <p>
+                      Опалата только по факту успешной сделки.
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- item2 end -->
+              <div style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;" class="col-md-4 col-sm-6 col-xs-12 feature-bg wow fadeInUp animated" data-wow-delay=".7s">
+                <div class="feature-inner text-center">
+                  <div class="icon-box">
+                    <i class="icon icon-briefcase"></i>
+                  </div>
+
+                  <div class="feature-content">
+                    <h3>Полная защита</h3>
+                    <p>
+                      Сделку купли-продажи проводят профессиональные юристы.
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- item3 end -->
+              <div style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;" class="col-md-4 col-sm-6 col-xs-12 feature-bg white wow fadeInUp animated" data-wow-delay=".9s">
+                <div class="feature-inner text-center">
+                  <div class="icon-box ">
+                    <i class="icon icon-strategy"></i>
+                  </div>
+
+                  <div class="feature-content">
+                    <h3>Личный брокер</h3>
+                    <p>
+                      Приведет только реальных клиентов.
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- item4 end -->
+              <div style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;" class="col-md-4 col-sm-6 col-xs-12 feature-bg white wow fadeInUp animated" data-wow-delay=".9s">
+                <div class="feature-inner text-center">
+                  <div class="icon-box ">
+                    <i class="icon icon-clock"></i>
+                  </div>
+
+                  <div class="feature-content">
+                    <h3>Быстрый поиск покупателя</h3>
+                    <p>
+                      В среднем 14 дней уходит на продажу бизнеса.
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- item5 end -->
+              <div style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;" class="col-md-4 col-sm-6 col-xs-12 feature-bg white wow fadeInUp animated" data-wow-delay=".9s">
+                <div class="feature-inner text-center">
+                  <div class="icon-box ">
+                    <i class="icon icon-compass"></i>
+                  </div>
+
+                  <div class="feature-content">
+                    <h3>Сопровождение</h3>
+                    <p>
+                      Проконсультируем и поддержим вас на всех этапах.
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- \.item6 -->
+            </div><!-- \.row -->
+          </div><!-- \.feature-wrapper -->
+      </div>  <!-- \.container -->
+    </section> <!-- \#about -->
+
+
+    <section id="counter-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="facts text-center">
+              <div class="col-md-3 col-xs-12 col-sm-6 columns">
+                <div class="facts-wrap">
+                  <i class="icon icon-profile-male wow fadeIn"></i>
+                  <div class="fact-content">
+                    <h6>Потенциальных покупателей</h6>
+                    <div class="line"></div>
+                    <div class="facts-wrap-num">
+                      <span class="wow fadeIn">3083</span>
                     </div>
                   </div>
-                  <div class="silver-line"></div>
-                  <p> Большинство людей приходят просто посмотреть, как работает бизнес без намерения о покупке.</p>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4  wow fadeInUp" data-wow-delay=".5s">
-              <div class="about-inner ">
-                <div class="about-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <i class="fa fa-bookmark-o"></i>
-                    </div>
-                    <div class="col-md-10">
-                      <h4>быстрый поиск покупателя</h4>
+              <div class="col-md-3 col-xs-12 col-sm-6 columns">
+                <div class="facts-wrap">
+                  <i class="icon icon-flag wow fadeIn"></i>
+                  <div class="fact-content">
+                    <h6>Рекламных площадок</h6>
+                    <div class="line"></div>
+                    <div class="facts-wrap-num">
+                      <span class="wow fadeIn">58</span>
                     </div>
                   </div>
-                  <div class="silver-line"></div>
-                  <p>В среднем 14 дней уходит на продажу бизнеса.</p>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4  wow fadeInUp" data-wow-delay=".5s">
-              <div class="about-inner ">
-                <div class="about-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <i class="fa fa-bookmark-o"></i>
-                    </div>
-                    <div class="col-md-10">
-                      <h4>сопровождение</h4>
-                    </div>
+              <i class="fa fa-calendar-check-o"></i>
+              <div class="col-md-3 col-xs-12 col-sm-6 columns">
+                <div class="facts-wrap">
+                  <i class="icon icon-calendar wow fadeIn"></i>
+                  <div class="fact-content">
+                    <h6>Средний cрок продажи, дней:</h6>
+                    <div class="line"></div>
+                    <div class="facts-wrap-num"><span class="wow fadeIn">14</span></div>
                   </div>
-                  <div class="silver-line"></div>
-                  <p> Проконсультируем и поддержим вас на всех этапах.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-12 col-sm-6 columns">
+                <div class="facts-wrap">
+                  <i class="icon icon-happy wow fadeIn"></i>
+                  <div class="fact-content">
+                    <h6>Доверили нам продажу</h6>
+                    <div class="line"></div>
+                    <div class="facts-wrap-num"><span class="wow fadeIn">1475</span></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- row end -->
-        </div>
-      </div>
-    </div>
-    <!-- row end -->
-  </div>
-  <!-- container end -->
-</section>
-<!-- Section features end -->
-<!-- section counter start -->
-<section id="counter-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="facts text-center">
-          <div class="col-md-3 col-xs-12 col-sm-6 columns">
-            <div class="facts-wrap">
-              <i class="icon icon-profile-male wow fadeIn"></i>
-              <div class="fact-content">
-                <h6>Потенциальных покупателей</h6>
-                <div class="line"></div>
-                <div class="facts-wrap-num">
-                  <span class="wow fadeIn">5865</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-12 col-sm-6 columns">
-            <div class="facts-wrap">
-              <i class="icon icon-flag wow fadeIn"></i>
-              <div class="fact-content">
-                <h6>Рекламных площадок</h6>
-                <div class="line"></div>
-                <div class="facts-wrap-num">
-                  <span class="wow fadeIn">58</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <i class="fa fa-calendar-check-o"></i>
-          <div class="col-md-3 col-xs-12 col-sm-6 columns">
-            <div class="facts-wrap">
-              <i class="icon icon-calendar wow fadeIn"></i>
-              <div class="fact-content">
-                <h6>Средний cрок продажи, дней:</h6>
-                <div class="line"></div>
-                <div class="facts-wrap-num"><span class="wow fadeIn">14</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-12 col-sm-6 columns">
-            <div class="facts-wrap">
-              <i class="icon icon-happy wow fadeIn"></i>
-              <div class="fact-content">
-                <h6>Доверили нам продажу</h6>
-                <div class="line"></div>
-                <div class="facts-wrap-num"><span class="wow fadeIn">1748</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Conatainer End -->
-  </div>
-  <!-- Fact div ENd -->
-</section>
-<!-- section counter end -->
+        </div>  <!-- \.row -->
+      </div>  <!-- \.container -->
+    </section>  <!-- \#counter-area -->
 
 <!-- scetion screenshot end -->
 <section id="feedback">
@@ -327,26 +368,32 @@
     <div class="row">
       <div class="col-md-5 col-md-offset-1 wow fadeInLeft" data-wow-delay=".3s">
         <div class="download-inner">
-          <h1>Оставьте заявку</h1>
-          <p>Если вы заинтересованы в быстрой продаже бизнеса с минимальными усилиями с вашей стороны и вдобавок совершенно бесплатно, просто оставьте заявку прямо сейчас, остальное доверьте нам.</p>
-          <h4>..или свяжитесь с нами:</h4>
+          <span class="h3">Получите бесплатную консультацию</span>
+          <p>
+            Поможем оценить и подготовить ваш объект к продаже.
+            Предложим бизнес актуальным клиентам по вашей сфере,
+            а также запустим рекламную компанию.
+          </p>
+          <span class="h4">или свяжитесь с нами:</span>
           <div class="contact-container">
             <div class="row">
               <div class="col-md-1 icon">
                 <i class="fa fa-phone-square"></i>
               </div>
               <div class="col-md-10">
-                <p>+7 (812) 389-53-79</p>
+                <p class="tel">+7 (812) 648-41-44</p>
               </div>
             </div>
           </div>
           <div class="contact-container">
             <div class="row">
               <div class="col-md-1 icon">
-                <i class="fa fa-envelope-o"></i>
+                <i class="fa fa-envelope"></i>
               </div>
               <div class="col-md-10">
-                <p>test@burobiz.ru</p>
+                <a href="mailto:info@burobiz.ru" class="email">
+                  info@burobiz.ru
+                </a>
               </div>
             </div>
           </div>
@@ -355,40 +402,44 @@
       </div>
       <!-- col-md-8 end -->
       <!-- form  -->
-      <div class="col-md-4 col-md-offset-1 form-container  wow fadeInRight">
-        <div class="order_form">
-              <div class="wrapper">
-                <div class="title">
-                  <h3>Оставьте заявку<br/>прямо сейчас</h3>
-                  <span>и мы перезвоним вам <br>в течение 9 минут..</span>
+      <div class="col-md-4 col-md-offset-1 form-container wow fadeInRight">
+        <div class="order_form"> <!-- .order_form -->
+          <div class="wrapper">
+            <div class="title">
+              <span class="form-heading">
+                Оставьте заявку<br/>прямо сейчас
+              </span>
+              <span class="form-subheading">
+                и мы перезвоним вам <br>в течение 9 минут
+              </span>
+            </div>
+            <form action="">
+              <div class="field name">
+                <div class="left-cont">
+                  <i class="fa fa-user"></i>
                 </div>
-                <form action="">
-                  <div class="field name">
-                    <div class="left-cont">
-                      <i class="fa fa-cog"></i>
-                    </div>
-                    <div class="right-cont">
-                      <input type="text" name="name" value="" placeholder="Введите ваше имя:" />
-                    </div>
-                  </div>
-                  <div class="field phone">
-                    <div class="left-cont">
-                      <i class="fa fa-phone"></i>
-                    </div>
-                    <div class="right-cont">
-                      <input type="text" name="tel" value="" placeholder="Введите телефон:" />
-                    </div>
-                  </div>
-                  <div>
-                    <input type="submit" class="send_btn" value=""></input>
-                  </div>
-                </form>
-                <div class="protect">
-                  <i class="fa fa-lock"></i>
-                  <span>Ваши данные не будут переданы третьим лицам</span>
+                <div class="right-cont">
+                  <input type="text" name="name" value="" placeholder="Введите ваше имя:" />
                 </div>
               </div>
+              <div class="field phone">
+                <div class="left-cont">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="right-cont">
+                  <input type="text" name="tel" value="" placeholder="Введите телефон:" />
+                </div>
+              </div>
+              <div>
+                <input type="submit" class="send_btn" value="" />
+              </div>
+            </form>
+            <div class="protect">
+              <i class="fa fa-lock"></i>
+              <span>Ваши данные не будут переданы третьим лицам</span>
             </div>
+          </div>
+        </div> <!-- \.order_form -->
       </div>
       <!-- form end -->
     </div>

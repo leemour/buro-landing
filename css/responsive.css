@@ -2,23 +2,21 @@
 ================================================== */
 
 /* Large Devices, Wide Screens */
-@media (min-width : 1200px) {
-	.dropdown i{
+@media (min-width: 1200px) {
+	/*.dropdown i{
 		display: none;
-	}
+	}*/
 	.navbar-left{
 		margin-left: 220px;
 	}
   .top-nav-collapse .navbar-left{
 		margin-left: 285px;
 	}
-
 }
-
 
 /* hide arrow when block become xs */
 @media(min-width: 991px){
-	
+
 }
 /* Medium Devices, Desktops */
 @media (max-width : 768px) {
@@ -31,13 +29,13 @@
 .static-logo{
 	}
 /* Small Devices, Tablets */
-@media (min-width : 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
 	.heading-inner::before,.heading-inner::after{
 		display: none;
 	}
 	/* NAVABAR */
-	
+
 	.slider {
     background: url("../images/showcase-bg.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -84,13 +82,13 @@
 		padding-right: 30px;
 	}
 	.navbar .green-button{
-	margin-right: -100px!important;		
+	margin-right: -100px!important;
 	}
 }
 
 
-/* Custom, iPhone Retina */ 
-@media (min-width : 320px) and (max-width : 767px)  {
+/* Custom, iPhone Retina */
+@media (min-width: 320px) and (max-width: 767px)  {
 
 	.heading-inner {
     	width: 90%;
@@ -106,7 +104,7 @@
 	.heading-inner::before,.heading-inner::after{
 		display: none;
 	}
-	
+
 	.slider-content .btn-container .btn-deafult{
 		margin-bottom: 20px;
 	}
@@ -145,4 +143,15 @@
 		margin: 20px 0px;
 	}
 
+}
+
+/* Custom, iPhone Retina */
+@media (max-width: 767px)  {
+  .navbar #main-menu {
+    float: left
+  }
+  .navbar ul.nav li.active > a,
+  .navbar ul.nav li.open > a {
+    /*border-top: solid 3px transparent;*/
+  }
 }
