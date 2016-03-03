@@ -951,20 +951,23 @@ i {
     }
 }
 /* hide arrow when block become xs */
-@media(min-width: 991px){
-
+@media(max-width: 991px){
+     .contact-container .tel{
+        padding-left: 30px!important;
+    }
 }
 /* Medium Devices, Desktops */
 @media (max-width : 768px) {
     #feature{
     }
+
     #feature .about-content{
         margin-top: 30px;
     }
 }
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-
+     
     .heading-inner::before,.heading-inner::after{
         display: none;
     }
@@ -1023,7 +1026,7 @@ i {
 
 /* Custom, iPhone Retina */
 @media (min-width: 320px) and (max-width: 767px)  {
-
+    
     .heading-inner {
         width: 90%;
     }
