@@ -390,7 +390,9 @@ NAVBAR
 .top-nav-collapse .phone-box {
   display: none
 }
-
+.top-nav-collapse img{
+    width:125px;
+}
 .top-nav-collapse .navbar-brand {
     padding: 0;
     padding-left: 30px;
