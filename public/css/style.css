@@ -383,6 +383,11 @@ NAVBAR
     text-transform: none;
 }
 
+.navbar .navbar-brand img {
+  width: 125px;
+  height: auto;
+}
+
 .top-nav-collapse {
   padding: 0
 }
@@ -390,9 +395,13 @@ NAVBAR
 .top-nav-collapse .phone-box {
   display: none
 }
+
 .top-nav-collapse img{
-    width:125px;
+  max-width: 80%;
+  max-height: 80%;
+  margin-top: 2px;
 }
+
 .top-nav-collapse .navbar-brand {
     padding: 0;
     padding-left: 30px;
@@ -401,10 +410,6 @@ NAVBAR
 
 .top-nav-collapse .tagline {
   margin-top: 7px;
-}
-
-.navbar .navbar-brand img {
-  height: 50px;
 }
 
 .navbar.top-nav-collapse .navbar-brand img {
