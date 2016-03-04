@@ -231,7 +231,6 @@ NAVBAR
   font-size: 17.2px;
   font-weight: 400;
   color: #222;
-  border-top: solid 3px transparent;
 }
 
 .navbar .top-contacts {
@@ -262,15 +261,29 @@ NAVBAR
 }
 
 @media (max-width: 767px) {
-  .navbar ul.nav li > .navig-button:hover { border-top: solid 3px transparent }
+  .navbar ul.nav li > .navig-button:hover {
+    border-top: solid 3px transparent
+  }
+}
+
+.navbar-default ul.nav li.open > a {
+  background-color: transparent !important;
+  color: #222 !important;
+}
+
+.navbar-default ul.nav li a i {
+  margin-left: 3px;
+}
+
+.navbar-default ul.nav li a:hover {
+  color: #dd1f26 !important;
 }
 
 .navbar ul.nav li.active > .navig-button,
 .navbar ul.nav li.open > .navig-button {
     text-decoration: none !important;
-    /*border-top: solid 3px #223867;*/
     border-top: 0 none;
-    background-color: #EEEEEE;
+    background-color: transparent !important;
     color: black;
 }
 
@@ -410,7 +423,6 @@ NAVBAR
 .order_form {
     display: inline-block;
     background-color: #00AEFF;
-    /*background: #1e5799; /* Old browsers */
     background: url(../images/form/order_form_bg.png) 0 0 no-repeat;
     background-size: 355px 350px;
     width: 357px;
@@ -428,7 +440,7 @@ NAVBAR
 .order_form span{
     font-weight: normal;
     font-size: 16px;
-    font-family: 'PT Sans', Arial;
+    font-family: 'Open Sans', Arial;
 }
 .order_form .wrapper {
     padding: 25px 37px;
@@ -463,8 +475,8 @@ NAVBAR
     padding: 0;
     border: none;
     color: #000;
-    font: 15px 'PT Sans';
-    font-family: 'PT Sans', Arial;
+    font: 15px 'Open Sans';
+    font-family: 'Open Sans', Arial;
 }
 .order_form .field .left-cont {
     font-size: 18px;
@@ -512,7 +524,7 @@ NAVBAR
     margin-top: 5px;
 }
 .order_form .protect span {
-    font-family: 'PT Sans', Arial;
+    font-family: 'Open Sans', Arial;
     display: inline-block;
     font-size: 11px;
     padding-left: 1px;
@@ -529,7 +541,7 @@ NAVBAR
     background: transparent;
     height: 42px;
     border: 0;
-    font: 15px 'PT Sans';
+    font: 15px 'Open Sans';
     line-height: 1;
     -webkit-appearance: none;
     width: 238px;
@@ -967,7 +979,7 @@ i {
 }
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-     
+
     .heading-inner::before,.heading-inner::after{
         display: none;
     }
@@ -1026,7 +1038,7 @@ i {
 
 /* Custom, iPhone Retina */
 @media (min-width: 320px) and (max-width: 767px)  {
-    
+
     .heading-inner {
         width: 90%;
     }
@@ -1124,7 +1136,7 @@ html {
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
